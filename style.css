@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+@media (max-width: 390px) {
+  .container {
+    width: 100%;
+    padding: 0 16px;
+  }
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card-ash {
+  background-color: rgba(154,140, 152, 0.75);
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+body {
+  background-color: rgba(74, 78, 105, 0.84);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  color: rgba(244, 245, 204, 0.8);
+}
+
+h1 {
+  font-family: Roboto;
+  font-size: 35px;
+  letter-spacing: 3px;
+  line-height: 1.6;
+}
+
+h2 {
+  color: rgba(220, 221, 178, 0.8);
+  font-family: Roboto;
+  font-size: 25px;
+  letter-spacing: 3px;
+  line-height: 1.6;
+}
+
+.button-purple {
+  background-color: rgb(74, 78, 105, 0.84);
+  padding: 0.35em 1em;
+  border-radius: 25px;
+  font-weight: bolder;
+}
+
+#profile-picture {
+  width: 150px;
+}
+
+#first-link {
+  font-size: 1em;
+}
+
+#first-link:hover {
+  background-color: rgb(234, 182, 19);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a {
+    color: rgba(234, 182, 19, 0.82);
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: color 0.3 ease, transform 0.3 ease;
+  }
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+  transform: transformY(-2px);
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.shadowed {
+  box-shadow: 4px 4px 1px grey;
+}

@@ -78,6 +78,10 @@ h2 {
   line-height: 1.6;
 }
 
+section {
+  color: rgba(244, 245, 204, 0.8);
+}
+
 .button-purple {
   background-color: rgb(74, 78, 105, 0.84);
   padding: 0.35em 1em;
@@ -87,6 +91,14 @@ h2 {
 
 #profile-picture {
   width: 150px;
+}
+
+.dog-circle {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  object-position: top;
 }
 
 #first-link {
